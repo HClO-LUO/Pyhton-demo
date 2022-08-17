@@ -5,7 +5,7 @@ def again():
     def fun1(a, b, c):
         d = b * b - 4 * a * c
         if d < 0:
-            print('error,please press again')
+            print('Error,please enter again')
         elif d == 0:
             x = -b / 2 * a
             print('only one value=', '%.2f' % x)
@@ -16,9 +16,9 @@ def again():
             print('x2=', '%.2f' % x2)
         return d
 
-    a = float(input('Pressing a:'))
-    b = float(input('Pressing b:'))
-    c = float(input('Pressing c:'))
+    a = float(input('Press a:'))
+    b = float(input('Press b:'))
+    c = float(input('Press c:'))
     d = fun1(a, b, c)
     while d < 0:
         a = float(input())
@@ -30,6 +30,7 @@ def again():
 print('Solution of quadratic equation of one variable')
 again()
 C=str(input('continue：Y or N?:\n'))
-if C=='y' or C=='Y':
+while C=='y' or C=='Y':
     again()
+    C = str(input('continue：Y or N?:\n'))
 
