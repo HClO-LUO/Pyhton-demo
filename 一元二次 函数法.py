@@ -10,8 +10,8 @@ def again():
             x = -b / 2 * a
             print('only one value=', '%.2f' % x)
         else:
-            x1 = (-b + d ** (0.5)) / 2 * a
-            x2 = (-b - d ** (0.5)) / 2 * a
+            x1 = (-b + d ** 0.5) / 2 * a
+            x2 = (-b - d ** 0.5) / 2 * a
             print('x1=', '%.2f' % x1)
             print('x2=', '%.2f' % x2)
         return d
