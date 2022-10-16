@@ -1,6 +1,7 @@
 # HClO Luo
 # 小罗
 # 2022/10/17 0:01
+#2
 list_input=eval(input())
 list_0=[]
 list_origin=[]

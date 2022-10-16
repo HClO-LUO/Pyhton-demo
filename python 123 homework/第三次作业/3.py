@@ -1,6 +1,7 @@
 # HClO Luo
 # 小罗
 # 2022/10/17 0:11
+#3
 s = input()
 t = ""
 for c in s:

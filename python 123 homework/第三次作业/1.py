@@ -1,6 +1,7 @@
 # HClO Luo
 # 小罗
 # 2022/10/16 23:41
+#1
 def fun1():
     N = int(input())
     if N in range(1,4):

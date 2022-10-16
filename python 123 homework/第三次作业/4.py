@@ -1,6 +1,7 @@
 # HClO Luo
 # 小罗
 # 2022/10/17 0:21
+#4
 for i in range(1,10):
     for j in range(1,i+1):
         s=i*j
